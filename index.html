@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelVista</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/icon/logo.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="flex">
+      <div class="logo flex">
+        <a href="#home" class="flex"
+          ><img src="assets/icon/logo.png" alt="" width="50px" />
+          <h1>Travel<span>Vista</span></h1>
+        </a>
+      </div>
+      <div class="center-nav">
+        <ul class="flex">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#Destinations">Destinations</a>
+          </li>
+          <li>
+            <a href="#Tours">Tours</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+        </ul>
+      </div>
+      <div id="rep-btn">
+        <button class="contact-btn">contact us</button>
+
+        <button id="menu-btn" type="button">
+          <img src="assets/icon/menu_icon.png" alt="menu" />
+        </button>
+      </div>
+      <aside>
+        <ul class="flex">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#Destinations">Destinations</a>
+          </li>
+          <li>
+            <a href="#Tours">Tours</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+        </ul>
+      </aside>
+    </nav>
+
+    <main id="home">
+      <div id="heading">
+        <h2>Exlpore</h2>
+        <h3>The World</h3>
+        <p>Discover new places and adventures</p>
+      </div>
+
+      <div class="hero flex">
+        <select name="Destination">
+          <option value="Destination">Destination</option>
+          <option value="Paris">Paris</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Dubai">Dubai</option>
+        </select>
+
+        <input type="date" class="date-input" />
+
+        <select name="Guest">
+          <option value="Guest">Guest</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="more than 5">more then 5</option>
+        </select>
+        <button class="contact-btn" id="search-btn" type="submit">
+          Search
+        </button>
+      </div>
+    </main>
+
+    <section class="section-one" id="Destinations">
+      <div class="common-heading flex">
+        <div class="separation"></div>
+        <h4>Popular Destinations</h4>
+        <div class="separation"></div>
+      </div>
+      <div class="section-container flex">
+        <div class="grid">
+          <div class="grid-item">
+            <div class="box">
+              <div class="image">
+                <img src="assets/images/image_1.jpg" alt="" />
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus eligendi cupiditate tempore, obcaecati voluptatem
+                  maxime hic saepe est sed labore culpa velit, placeat repellat,
+                  unde cumque. Rem voluptatem at est?
+                </p>
+              </div>
+              <div class="fix-content">
+                <h5>maldives</h5>
+                <p>Tropical Paradise</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="box">
+              <div class="image">
+                <img src="assets/images/image_2.jpg" alt="" />
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus eligendi cupiditate tempore, obcaecati voluptatem
+                  maxime hic saepe est sed labore culpa velit, placeat repellat,
+                  unde cumque. Rem voluptatem at est?
+                </p>
+              </div>
+              <div class="fix-content">
+                <h5>maldives</h5>
+                <p>Tropical Paradise</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="box">
+              <div class="image">
+                <img src="assets/images/image_3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloribus eligendi cupiditate tempore, obcaecati voluptatem
+                  maxime hic saepe est sed labore culpa velit, placeat repellat,
+                  unde cumque. Rem voluptatem at est?
+                </p>
+              </div>
+              <div class="fix-content">
+                <h5>maldives</h5>
+                <p>Tropical Paradise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-two flex" id="Tours">
+      <div class="common-heading flex">
+        <div class="separation"></div>
+        <h4>Our Services</h4>
+        <div class="separation"></div>
+      </div>
+
+      <div class="section-container">
+        <div class="grid">
+          <div class="grid-item">
+            <div class="service-box">
+              <img src="assets/images/service_1.png" alt="" />
+              <p>Expert-led tours for all ages</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="service-box">
+              <img src="assets/images/service_2.png" alt="" />
+              <p>Expert-led tours for all ages</p>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="service-box">
+              <img src="assets/images/service_3.png" alt="" />
+              <p>Expert-led tours for all ages</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-three" id="About">
+      <div class="section-three-container-1">
+        <div class="section-three-heading">
+          <h4>Plan Your Trip</h4>
+          <div class="separation"></div>
+        </div>
+        <p>Get Ready for Your Adventure</p>
+        <button class="contact-btn" id="Planning-btn" type="submit">
+          Start Planning
+        </button>
+      </div>
+      <div class="section-three-container-2">
+        <img src="assets/images/footer_image.png" alt="" />
+      </div>
+    </div>
+
+    <footer class="flex">
+      <div class="left-footer flex">
+        <div class="footer-icons">
+          <img src="assets/icon/facebook_icon.png" alt="" />
+        </div>
+        <div class="footer-icons">
+          <img src="assets/icon/x_icon.png" alt="" />
+        </div>
+        <div class="footer-icons">
+          <img src="assets/icon/inta_icon.png" alt="" />
+        </div>
+      </div>
+      <div class="center-footer flex">
+        <p>&copy 2024 TravelVista.</p>
+        <p>All right reserved.</p>
+      </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
